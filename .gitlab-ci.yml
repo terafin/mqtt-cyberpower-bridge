@@ -6,6 +6,8 @@ services:
   - docker:dind
 
 build-master:
+  services:
+    - docker:dind
   stage: build
   script:
     - docker login -u "$CI_REGISTRY_USER" -p "$CI_REGISTRY_PASSWORD" $CI_REGISTRY
@@ -15,6 +17,8 @@ build-master:
     - master
 
 build-master-docker:
+  services:
+    - docker:dind
   stage: build
   script:
     - docker login -u "$DOCKER_REGISTRY_USER" -p "$DOCKER_REGISTRY_PASSWORD"
@@ -24,6 +28,8 @@ build-master-docker:
     - master
 
 build:
+  services:
+    - docker:dind
   stage: build
   script:
     - docker login -u "$CI_REGISTRY_USER" -p "$CI_REGISTRY_PASSWORD" $CI_REGISTRY
