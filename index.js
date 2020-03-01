@@ -59,7 +59,6 @@ client.on('message', (topic, message) => {
         topic: topic,
         value: message
     })
-    var target = '' + message
 
     if (topic.indexOf('/set') >= 0) {
         const components = topic.split('/')
