@@ -1,29 +1,29 @@
 {
-    "name": "mqtt-cyberpower-bridge",
-    "version": "1.0.0",
-    "description": "Cyberpower MQTT Bridge",
-    "main": "index.js",
-    "scripts": {
-        "start": "node index.js"
-    },
-    "repository": {
-        "url": "https://github.com/terafin/mqtt-cyberpower-bridge.git"
-    },
-    "author": "Justin Wood",
-    "license": "MIT",
-    "bugs": {
-        "url": "https://github.com/terafin/mqtt-cyberpower-bridge/issues"
-    },
-    "dependencies": {
-        "homeautomation-js-lib": "https://github.com/terafin/homeautomation-js-lib.git",
-        "lodash": "latest",
-        "mqtt": "latest",
-        "snmp-native": "^1.2.0",
-        "repeat": "0.0.6",
-        "request": "2.88.2"
-    },
-    "engines": {
-        "node": ">=4"
-    },
-    "homepage": "https://github.com/terafin/mqtt-cyberpower-bridge/blob/master/README.md"
+  "name": "mqtt-cyberpower-bridge",
+  "version": "1.0.0",
+  "description": "Cyberpower MQTT Bridge",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "url": "https://github.com/terafin/mqtt-cyberpower-bridge.git"
+  },
+  "author": "Justin Wood",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/terafin/mqtt-cyberpower-bridge/issues"
+  },
+  "dependencies": {
+    "homeautomation-js-lib": "https://github.com/terafin/homeautomation-js-lib.git",
+    "lodash": "latest",
+    "mqtt": "latest",
+    "snmp-native": "^1.2.0",
+    "repeat": "0.0.6",
+    "request": "2.88.2"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "homepage": "https://github.com/terafin/mqtt-cyberpower-bridge/blob/master/README.md"
 }
